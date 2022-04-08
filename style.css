@@ -1,12 +1,16 @@
 .bg {
-    height: 100%;
-    background-color: beige;
+    background-color: oldlace;
 }
 
 .container {
     text-align: center;
+    margin-top: 1%;
 }
 
 .centered-element {
     display: inline-block;
+}
+
+.resume {
+    width: 60%;
 }

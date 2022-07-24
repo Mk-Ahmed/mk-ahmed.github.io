@@ -9,12 +9,14 @@ SOFTWARE ENGINEER
 - Agile Software developer
     - Freelance
     - Resocom (https://www.resocom.com)
+- Achievements/Tasks
     - Development of new features for cyberfiles project
     - Upgrade to Java 18
     - Implementation of Stripe, Auth0, AWS S3, MAILGUN.
 
 - SOFTWARE ENGINEER
     - SOCIETE GENERALE
+- Achievements/Tasks
     - Development of an application to handle employees professional interviews using Java and ReactJs.
     - Development of an application to collect HR data from employees of subsidiaries around the world using Java.
     - Animation of meetings during which I presented things like Clean architecture, testing, KATA for Optional class.
@@ -25,12 +27,14 @@ SOFTWARE ENGINEER
 - APPLICATION CONSULTANT
     - CAPGEMINI
     - Chorus pro: https://portail.chorus-pro.gouv.fr/
+- Achievements/Tasks
     - Development of new features, bug fixing.
     - Tests recipe.
     - responsible for the graphic redesign
 
 - SOLUTION DEVELOPER
     - AXA France
+- Achievements/Tasks
     - Development of business tools for the support team using VBA.
     - Development of an executable to validate IBAN numbers in C#.
     - Development of Excel reporting in VBA.

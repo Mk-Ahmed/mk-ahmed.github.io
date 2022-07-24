@@ -66,12 +66,12 @@ SOFTWARE ENGINEER
 
 - NIZU - e-commerce
   NIZU's goal is to provide taxi users with an easy way to restock essentials during their journeys.
-- Development of the backend
+- Development of the backend (Java)
 
 # LEARNINGS
 
 - Readings and self-study
-    - Clean Code, Clean Architecture, Gang of fours design patterns, IDDD, Effective Java, Lean Startup
+    - Clean Code, Clean Architecture, Gang of fours design patterns, IDDD, Effective Java, Lean Startup, CQRS By Greg YOUNG
 - WEALCOME - TDD and Clean Architecture training in the Java world
 - Devops initiation
 - Agile Initiation

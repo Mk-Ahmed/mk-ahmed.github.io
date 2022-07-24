@@ -66,9 +66,8 @@ DÉVELOPPEUR AGILE
 # PROJETS PERSONEL
 
 - NIZU - e-commerce
-  L'objectif de NIZU est de fournir aux utilisateurs de taxi un moyen facile de se réapprovisionner en produits
-  essentiels pendant leurs trajets.
-- Développement du backend
+  L'objectif de NIZU est de fournir aux utilisateurs de taxi un moyen facile de se réapprovisionner en produits essentiels pendant leurs trajets.
+- Développement du backend (Java)
 
 # FORMATIONS
 

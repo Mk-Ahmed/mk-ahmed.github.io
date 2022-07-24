@@ -61,6 +61,8 @@ SOFTWARE ENGINEER
 # PERSONAL PROJECTS
 
 - NIZU - e-commerce
+  NIZU's goal is to provide taxi users with an easy way to restock essentials during their journeys.
+- Development of the backend
 
 # LEARNINGS
 

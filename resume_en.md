@@ -10,7 +10,7 @@ SOFTWARE ENGINEER
     - Freelance
 - Achievements/Tasks
     - RESOCOM - CYBERFILES - Development of new features on the platform
-    - UNIVERSIGN - Participation in the redesign of the tool
+    - UNIVERSIGN - Participation in the redesign of the platform
 
 - SOFTWARE ENGINEER
     - SOCIETE GENERALE

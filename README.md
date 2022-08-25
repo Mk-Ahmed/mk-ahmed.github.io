@@ -2,25 +2,25 @@ Développeur fullstack, spécialisé backend, j'ai réalisé de nombreux projets
 
 Je peux vous accompagner dans votre transformation. Un projet de refonte, d’évolution/maintenance d’un code existant, ou la réalisation d’un nouveau produit, rien ne me fait peur.
 
-Riche de mes expériences, je suis capable d'intervenir durant tous les cycles du développement logiciel:
+Riche de mes expériences, je suis capable d'intervenir durant tous les cycles du développement logiciel: 
 
 - Ateliers d’absorption du besoin
-- Réflexion autour du parcours utilisateur
+- Réflexion autour du parcours utilisateur 
 - Conception de fines user stories (1 à 2 jours de développement) afin de délivrer le plus rapidement possible de la valeur ajoutée à vos utilisateurs
 - Développement :)
 - Livraison dans une infrastructure cloud
 - Analyse de code existant pour dénicher de la dette technique afin de proposer des améliorations
-- Mise en place de tests automatisés
+- Mise en place de tests automatisés 
 
 Pour les plus friands de techniques,  voici une liste des patterns et frameworks de programmation/architecture que j'utilise au quotidien :
 
-- Object oriented programming
-- Test driven development
-- Clean architecture
+- Object oriented programming 
+- Test driven development 
+- Clean architecture 
 - Domain driven design
 - Task based UI
 - Modular Monolith
-- Transactional Outbox
+- Transactional Outbox/inbox pattern
 - CQRS
 
 Languages et Framework :

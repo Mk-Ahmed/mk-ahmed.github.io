@@ -10,7 +10,7 @@ DÉVELOPPEUR AGILE
     - Freelance
 - Réalisations
     - RESOCOM - CYBERFILES - Développement de nouvelles fonctionnalités sur la plate-forme 
-    - UNIVERSIGN - Participation à la refonte de l'outil
+    - UNIVERSIGN - Participation à la refonte de la plate-forme 
 
 - INGÉNIEUR LOGICIEL
     - SOCIETE GENERALE

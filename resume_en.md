@@ -8,11 +8,9 @@ SOFTWARE ENGINEER
 
 - Agile Software developer
     - Freelance
-    - Resocom (https://www.resocom.com)
 - Achievements/Tasks
-    - Development of new features for cyberfiles project
-    - Upgrade to Java 18
-    - Implementation of Stripe, Auth0, AWS S3, MAILGUN.
+    - RESOCOM - CYBERFILES - Development of new features on the platform
+    - UNIVERSIGN - Participation in the redesign of the tool
 
 - SOFTWARE ENGINEER
     - SOCIETE GENERALE

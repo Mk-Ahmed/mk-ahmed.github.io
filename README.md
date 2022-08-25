@@ -20,7 +20,7 @@ Pour les plus friands de techniques,  voici une liste des patterns et frameworks
 - Domain driven design
 - Task based UI
 - Modular Monolith
-- Transactional Outbox/inbox pattern
+- Transactional Outbox/Inbox pattern
 - CQRS
 
 Languages et Framework :

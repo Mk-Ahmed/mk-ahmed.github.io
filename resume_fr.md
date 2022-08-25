@@ -8,11 +8,9 @@ DÉVELOPPEUR AGILE
 
 - Développeur logiciel agile
     - Freelance
-    - Resocom (https://www.resocom.com)
 - Réalisations
-    - Développement de nouvelles fonctionnalités pour le projet cyberfiles
-    - Migration Java 18.
-    - Implémentation de Stripe, Auth0, AWS S3, MAILGUN.
+    - RESOCOM - CYBERFILES - Développement de nouvelles fonctionnalités sur la plate-forme 
+    - UNIVERSIGN - Participation à la refonte de l'outil
 
 - INGÉNIEUR LOGICIEL
     - SOCIETE GENERALE

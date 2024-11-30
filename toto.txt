@@ -1,0 +1,19 @@
+
+
+
+    <!-- Header avec la photo -->
+    <div class="flex items-center bg-blue-500 text-white p-6">
+        <img src="profile.jpg" alt="Votre Photo" class="w-32 h-32 rounded-full border-4 border-white">
+        <div class="ml-6">
+            <h1 class="text-3xl font-bold text-black-500">John Doe</h1>
+            <p class="text-lg text-black-700">Développeur fullstack</p>
+            <p class="text-lg text-black-700">Toronto, Canada</p>
+        </div>
+
+
+
+
+
+                <a href="cv-fr.pdf" download class="inline-block bg-blue-500 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-600">
+                    Télécharger le CV (PDF)
+                </a>

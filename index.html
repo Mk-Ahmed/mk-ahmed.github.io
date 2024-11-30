@@ -1,13 +1,220 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>MKHININI Ahmed - CV</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-<img src="cv.png" alt="Resume" width="100%" height="100%">
+<body class="font-sans bg-gray-100 text-gray-800">
+
+<!-- Section En-tête avec Photo et Informations -->
+<header class="bg-blue-500 text-white py-6">
+    <div class="flex items-center justify-center sm:justify-start sm:flex-row flex-col p-6">
+        <img src="profile.jpg" alt="Photo"
+             class="w-32 h-32 rounded-full border-4 border-white mb-4 sm:mb-0">
+        <div class="ml-6 text-center sm:text-left">
+            <h1 class="text-3xl font-bold text-black">Ahmed</h1>
+            <p class="text-lg text-black-700">Développeur Fullstack</p>
+            <p class="text-lg text-black-700">Paris, France</p>
+        </div>
+    </div>
+</header>
+
+<!-- Section Introduction -->
+<section class="container mx-auto px-6 py-12">
+    <h2 class="text-2xl font-bold text-blue-500 mb-4">À propos de moi</h2>
+    <p>Développeur fullstack, spécialisé backend, j'ai réalisé de nombreux projets, que ce soit dans le monde de
+        l'entreprise ou dans l'entreprenariat. J'ai décidé de continuer mon chemin en tant que consultant.</p>
+    <p class="mt-4">Je peux vous accompagner dans votre transformation. Un projet de refonte, d’évolution/maintenance
+        d’un code existant, ou la réalisation d’un nouveau produit, rien ne me fait peur.</p>
+    <p class="mt-4">Riche de mes expériences, je suis capable d'intervenir durant tous les cycles du développement
+        logiciel :</p>
+    <ul class="list-disc list-inside mt-4 space-y-2">
+        <li>Animation d’ateliers pour formaliser les besoins et aligner les parties prenantes.</li>
+        <li>Conception et amélioration des parcours utilisateurs.</li>
+        <li>Création de user stories claires pour des cycles de développement courts et efficaces.</li>
+        <li>Développement de solutions robustes et maintenables.</li>
+        <li>Livraison et déploiement dans des environnements cloud performants.</li>
+        <li>Analyse de code pour identifier et réduire la dette technique.</li>
+        <li>Mise en place de tests automatisés pour renforcer la qualité du produit.</li>
+        <li>Montée en compétences des équipes sur les pratiques de développement et l’approche craft.</li>
+    </ul>
+    <div class="mt-6 p-4 border-l-4 border-blue-500 bg-blue-50">
+        <p class="text-lg font-semibold text-blue-700">Garantie qualité</p>
+        <p class="text-md text-gray-800 mt-2">En tant que signataire du manifeste software craftsmanship, mes
+            développements sont garantis 0 bug. Néanmoins, de part la complexité de notre métier, si jamais vos
+            utilisateurs remontent des dysfonctionnements, une correction gratuite et immédiate sera apportée.</p>
+    </div>
+</section>
+
+<!-- Section Expériences Professionnelles -->
+<section class="container mx-auto px-6 py-12">
+    <h2 class="text-2xl font-bold text-blue-500 mb-4">Expériences Professionnelles</h2>
+
+    <!-- Freelance -->
+    <div class="mb-6 flex items-start sm:items-center">
+        <img src="path/to/itsf-logo.png" alt="Logo ITSF" class="w-12 h-12 mr-4">
+        <div>
+            <h3 class="text-xl font-semibold text-gray-800">Consultant</h3>
+            <p class="text-gray-600">01/2022 - Présent, Paris - France</p>
+            <ul class="list-disc list-inside mt-2 text-gray-700">
+                <li>ITSF (18 mois) : Réécriture d'une partie du système d'abonnement pour deux opérateurs téléphoniques
+                    en Europe.
+                </li>
+                <li>UNIVERSIGN (6 mois) : Participation à la refonte de la plate-forme.</li>
+                <li>RESOCOM (6 mois) : Développement de nouvelles fonctionnalités sur la plate-forme cyberfiles.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- NIZU -->
+    <div class="mb-6 flex items-start sm:items-center">
+        <img src="path/to/societe-generale-logo.png" alt="Logo Nizu" class="w-12 h-12 mr-4">
+        <div>
+            <h3 class="text-xl font-semibold text-gray-800">CEO</h3>
+            <p class="text-gray-600">10/2019 - 12/2021, Dubai - UAE</p>
+            <p class="text-gray-600"> L'objectif de NIZU est de fournir aux utilisateurs de taxi un moyen facile de se
+                réapprovisionner en produits essentiels pendant leurs trajets.</p>
+
+            <ul class="list-disc list-inside mt-2 text-gray-700">
+
+
+                <li>Développement de l'application</li>
+                <li>Commercialisation auprès des compagnies de taxi et des autorités</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Société Générale -->
+    <div class="mb-6 flex items-start sm:items-center">
+        <img src="path/to/societe-generale-logo.png" alt="Logo Société Générale" class="w-12 h-12 mr-4">
+        <div>
+            <h3 class="text-xl font-semibold text-gray-800">Ingénieur logiciel - Société Générale</h3>
+            <p class="text-gray-600">10/2019 - 12/2021, Val de Fontenay - France</p>
+            <ul class="list-disc list-inside mt-2 text-gray-700">
+                <li>Développement d'une application pour gérer les entretiens professionnels des employés (Java).</li>
+                <li>Développement d'une application pour collecter les données RH des collaborateurs des filiales
+                    (Java).
+                </li>
+                <li>Accompagnement des équipes lors du démarrage de nouveaux projets. Contribution aux librairies
+                    internes.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Capgemini -->
+    <div class="mb-6 flex items-start sm:items-center">
+        <img src="path/to/capgemini-logo.png" alt="Logo Capgemini" class="w-12 h-12 mr-4">
+        <div>
+            <h3 class="text-xl font-semibold text-gray-800">Consultant Application - Capgemini</h3>
+            <p class="text-gray-600">10/2017 - 09/2019, Paris - France</p>
+            <ul class="list-disc list-inside mt-2 text-gray-700">
+                <li>Chorus pro: <a href="https://portail.chorus-pro.gouv.fr/" class="text-blue-500" target="_blank">portail.chorus-pro.gouv.fr</a>
+                </li>
+                <li>Développement de nouvelles fonctionnalités, correction de bugs (Java).</li>
+                <li>Responsable de la refonte graphique.</li>
+                <li>Recette de tests.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- AXA -->
+    <div class="mb-6 flex items-start sm:items-center">
+        <img src="path/to/axa-logo.png" alt="Logo AXA" class="w-12 h-12 mr-4">
+        <div>
+            <h3 class="text-xl font-semibold text-gray-800">Développeur - AXA</h3>
+            <p class="text-gray-600">09/2016 - 09/2017, La Défense - Paris</p>
+            <ul class="list-disc list-inside mt-2 text-gray-700">
+                <li>Développement d'outils métiers pour l'équipe support en sous Access.</li>
+                <li>Développement d'un exécutable pour valider les numéros IBAN.</li>
+                <li>Développement de reporting Excel.</li>
+            </ul>
+        </div>
+    </div>
+
+</section>
+
+<!-- Section Compétences Techniques -->
+<section class="container mx-auto px-6 py-12">
+    <div class="p-6 border-t">
+        <h2 class="text-2xl font-bold text-blue-500 mb-4">Langages de Programmation</h2>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <li class="bg-gray-50 p-4 shadow rounded-lg">Java (Spring Boot, Hibernate)</li>
+            <li class="bg-gray-50 p-4 shadow rounded-lg">TypeScript (Angular, NgRx)</li>
+            <li class="bg-gray-50 p-4 shadow rounded-lg">SQL (PostgreSQL, MariaDB)</li>
+        </ul>
+    </div>
+
+    <!-- Technologies maîtrisées : Patterns -->
+    <div class="p-6 border-t">
+        <h2 class="text-2xl font-bold text-blue-500 mb-4">Patterns de Programmation</h2>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <li class="bg-gray-50 p-4 shadow rounded-lg">Object Oriented Programming</li>
+            <li class="bg-gray-50 p-4 shadow rounded-lg">Test Driven Development</li>
+            <li class="bg-gray-50 p-4 shadow rounded-lg">Clean Architecture</li>
+            <li class="bg-gray-50 p-4 shadow rounded-lg">Domain Driven Design</li>
+            <li class="bg-gray-50 p-4 shadow rounded-lg">Task Based UI</li>
+            <li class="bg-gray-50 p-4 shadow rounded-lg">CQRS</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Section Formations, Diplômes et Lectures -->
+<section class="container mx-auto px-6 py-12">
+    <h2 class="text-2xl font-bold text-blue-500 mb-4">Formations et Diplômes</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Diplômes -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold text-gray-800">Diplômes</h3>
+            <ul class="list-disc list-inside mt-4 text-gray-700">
+                <li><strong>Master, Expert du système d'information</strong> - ESTIAM - INGETIS, Paris (09/2019)</li>
+            </ul>
+        </div>
+
+        <!-- Formations -->
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold text-gray-800">Formations</h3>
+            <ul class="list-disc list-inside mt-4 text-gray-700">
+                <li><strong>Extreme programming, Clean Code, Clean Architecture, Design patterns, IDDD, CQRS</strong> (Formation continue, 2020 - 2023)</li>
+                <li><strong>Initiation DEVOPS</strong> (02/2020)</li>
+                <li><strong>Initiation AGILE</strong> (01/2020 - 02/2020)</li>
+                <li><strong>DDD Stratégique Design</strong> (09/2023)</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="mt-8 bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold text-gray-800">Lectures</h3>
+        <p class="mt-4 text-gray-700">Formations réalisées en autonomie, basées sur des ouvrages spécialisés :</p>
+        <ul class="list-disc list-inside mt-4 text-gray-700">
+            <li><strong>Extreme Programming</strong> - Kent Beck</li>
+            <li><strong>Clean Code</strong> - Robert C. Martin</li>
+            <li><strong>Clean Architecture</strong> - Robert C. Martin</li>
+            <li><strong>Design Patterns</strong> - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides</li>
+            <li><strong>IDDD (Implementing Domain-Driven Design)</strong> - Vaughn Vernon</li>
+            <li><strong>CQRS</strong> - Greg Young</li>
+            <li><strong>Effective Java</strong> - Joshua Bloch</li>
+            <li><strong>Lean Startup</strong> - Eric Ries</li>
+        </ul>
+    </div>
+</section>
+
+<section class="container mx-auto px-6 py-12 text-center">
+    <h2 class="text-2xl font-bold text-blue-500 mb-4">Téléchargez mon CV</h2>
+    <a href="cv-fr.pdf" download="Mon_CV" class="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">
+        Télécharger le CV
+    </a>
+</section>
+
 </body>
 
+<!-- Footer -->
+<footer class="bg-blue-500 text-white py-4 mt-12">
+    <div class="text-center">
+        <p class="text-sm">&copy; 2024 Ahmed MKHININI. Tous droits réservés.</p>
+    </div>
+</footer>
 </html>
-

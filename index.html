@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="widgetTitle">Mon portfolio - Ahmed</title>
+    <title id="widget-title">Mon portfolio - Ahmed</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="font-sans bg-gray-100 text-gray-800">
@@ -13,24 +13,25 @@
     <div class="flex items-center justify-center sm:justify-start sm:flex-row flex-col p-6">
         <img src="resources/profile.png" alt="Photo" class="w-32 h-32 rounded-full border-4 border-white mb-4 sm:mb-0">
         <div class="ml-6 text-center sm:text-left">
-            <h1 class="text-3xl font-bold text-white">Ahmed</h1>
-            <p class="text-lg text-white">Consultant en développement logiciel</p>
-            <p class="italic text-sm mt-4">« Celui qui excelle à résoudre les difficultés le fait avant qu'elles ne
-                surgissent. ». SUN TZU</p>
+            <h1 id="my-name" class="text-3xl font-bold text-white">Ahmed</h1>
+            <p id="job-title" class="text-lg text-white">Consultant en développement logiciel</p>
+            <p id="quote" class="italic text-sm mt-4">« Celui qui excelle à résoudre les difficultés le fait avant
+                qu'elles ne surgissent. ». SUN TZU</p>
         </div>
     </div>
 </header>
 
 <!-- Introduction -->
 <section class="container mx-auto px-6 py-12">
-    <h2 class="text-2xl font-bold text-blue-500 mb-4">À propos de moi</h2>
-    <p><strong>Développeur spécialisé backend</strong>, j'ai contribué à de nombreux projets diversifiés
-        dans des environnements professionnels et entrepreneuriaux. Passionné par l'innovation, je vous accompagne dans
+    <h2 class="text-2xl font-bold text-blue-500 mb-4" id="about-title">À propos de moi</h2>
+    <p id="about-intro"><strong>Développeur spécialisé backend</strong>, j'ai contribué à de nombreux projets
+        diversifiés dans des environnements professionnels et entrepreneuriaux. Passionné par l'innovation, je vous accompagne dans
         votre transformation numérique, que ce soit pour créer, faire évoluer ou maintenir vos solutions.</p>
-    <p class="mt-4">Avec un esprit orienté résultats et une approche collaborative, je relève les défis techniques et
+    <p id="about-approach" class="mt-4">Avec un esprit orienté résultats et une approche collaborative, je relève les
+        défis techniques et
         humains pour transformer vos idées en succès concrets.</p>
-    <p class="mt-4">Grâce à mes expériences variées, j'interviens à chaque étape du cycle de développement logiciel
-        :</p>
+    <p id="about-expertise" class="mt-4">Grâce à mes expériences variées, j'interviens à chaque étape du cycle de
+        développement logiciel :</p>
     <ul class="list-disc list-inside mt-4 space-y-2">
         <li><strong>Animation d’ateliers</strong> pour clarifier les besoins et aligner les parties prenantes.</li>
         <li><strong>Conception et optimisation des parcours utilisateurs</strong>, pour une expérience fluide et
@@ -128,7 +129,8 @@
         <img src="resources/logo-entreprise.png" alt="Logo Société Générale" class="w-12 h-12 mr-4">
         <div>
             <h3 class="text-xl font-semibold text-gray-800">Ingénieur logiciel - Société Générale</h3>
-            <p class="text-gray-600">10/2019 - 12/2021 <strong>(2 ans et 3 mois)</strong>, Fontenay-sous-bois - France</p>
+            <p class="text-gray-600">10/2019 - 12/2021 <strong>(2 ans et 3 mois)</strong>, Fontenay-sous-bois - France
+            </p>
             <ul class="list-disc list-inside mt-2 text-gray-700">
                 <li>Développement d'une application pour la gestion des entretiens professionnels des employés.</li>
                 <li>Conception d'une application dédiée à la collecte des données RH des collaborateurs des filiales du
@@ -217,7 +219,8 @@
 
 <!-- CV -->
 <section class="container mx-auto px-6 py-12 text-center">
-    <a href="resources/cv-fr.pdf" download="Mon_CV" class="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">
+    <a href="resources/cv-fr.pdf" download="Mon_CV"
+       class="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">
         Téléchargez mon CV
     </a>
 </section>
@@ -232,14 +235,18 @@
 <script>
     const language = navigator.language;
     const userLang = language.startsWith("fr") ? "fr" : "en";
-    if (userLang !== 'fr'){
+    if (userLang !== 'fr') {
         loadTranslations(userLang);
     }
+
     function loadTranslations(lang) {
         fetch(`i18n/${lang}.json`)
             .then(response => response.json())
             .then(translations => {
-                document.getElementById("widgetTitle").textContent = translations.widget.title;
+                document.getElementById("widget-title").textContent = translations.widget.title;
+                document.getElementById("my-name").textContent = translations.header.name;
+                document.getElementById("job-title").textContent = translations.header.title;
+                document.getElementById("quote").textContent = translations.header.quote;
             })
             .catch(error => console.error("Error while loading translations", error));
     }

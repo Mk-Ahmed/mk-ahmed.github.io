@@ -1,0 +1,103 @@
+{
+  "head": {
+    "title": "Mon portfolio - Ahmed"
+  },
+  "header": {
+    "name": "Ahmed",
+    "title": "Consultant en développement logiciel",
+    "quote": "« Celui qui excelle à résoudre les difficultés le fait avant qu'elles ne surgissent. » - Sun Tzu"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "intro": "Développeur spécialisé backend, j'ai contribué à de nombreux projets diversifiés dans des environnements professionnels et entrepreneuriaux. Passionné par l'innovation, je vous accompagne dans votre transformation numérique, que ce soit pour créer, faire évoluer ou maintenir vos solutions.",
+    "approach": "Avec un esprit orienté résultats et une approche collaborative, je relève les défis techniques et humains pour transformer vos idées en succès concrets.",
+    "expertise": "Grâce à mes expériences variées, j'interviens à chaque étape du cycle de développement logiciel :",
+    "skills": {
+      "workshops": "Animation d’ateliers pour clarifier les besoins et aligner les parties prenantes.",
+      "ux": "Conception et optimisation des parcours utilisateurs, pour une expérience fluide et intuitive.",
+      "stories": "Rédaction d'user stories précises, favorisant des cycles de développement courts et efficaces.",
+      "development": "Développement de solutions fiables et maintenables, adaptées à vos besoins.",
+      "deployment": "Déploiement performant dans des environnements cloud modernes.",
+      "code_review": "Analyse de code pour réduire la dette technique et améliorer les performances.",
+      "testing": "Mise en place de tests automatisés, garantissant la qualité et la stabilité du produit.",
+      "coaching": "Coaching technique des équipes, pour ancrer les bonnes pratiques et la culture craft."
+    },
+    "quality_guarantee": {
+      "title": "Garantie qualité",
+      "description": "En tant que signataire du manifeste Software Craftsmanship, mes développements respectent des standards de haute qualité. En cas de dysfonctionnements, une correction gratuite et immédiate est garantie."
+    }
+  },
+  "experience": {
+    "title": "Expériences Professionnelles",
+    "jobs": [
+      {
+        "company": "RISF",
+        "position": "Développeur",
+        "dates": "07/2023 - 02/2025 (1 an et 8 mois)",
+        "location": "Nice - France",
+        "description": "Fournisseur de solution BSS pour les opérateurs téléphoniques du groupe ILIAD",
+        "tasks": [
+          "Contributions au développement du cœur du produit",
+          "Maintenance et évolution de la solution de facturation pour EIR/GOMO",
+          "Développement de la solution de facturation pour EPIC Malta"
+        ]
+      },
+      {
+        "company": "Universign",
+        "position": "Développeur",
+        "dates": "07/2022 - 03/2023 (8 mois)",
+        "location": "Paris - France",
+        "description": "Prestataire spécialisé dans les services de signature électronique",
+        "tasks": [
+          "Améliorations des tests de l'application",
+          "Refonte du système d'authentification en intégrant des solutions multi-fournisseurs (SAML2, OAuth)",
+          "Mise en place de Stripe Billing pour la partie abonnement et facturation"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Formations et Diplômes",
+    "degree_subtitle": "Diplômes",
+    "degrees": [
+      {
+        "title": "Master",
+        "field": "Expert en systèmes d'information",
+        "school": "ESTIAM - Paris",
+        "year": "09/2019"
+      },
+      {
+        "title": "Licence",
+        "field": "Concepteur de systèmes d'information",
+        "school": "IUT de Montreuil - Paris 8",
+        "year": "08/2017"
+      }
+    ],
+    "training_subtitle": "Formations",
+    "trainings": [
+      "Initiation DEVOPS (02/2020)",
+      "Initiation AGILE (01/2020 - 02/2020)",
+      "Software Craftsmanship - Clean Code, TDD, BDD et principes SOLID (11/2020)",
+      "TDD et Clean Architecture dans le monde de Java (11/2021)",
+      "DDD Stratégique Design (09/2023)"
+    ],
+    "book_subtitle": "Lecture",
+    "books": [
+      "Extreme Programming - Kent Beck",
+      "Clean Code - Robert C. Martin",
+      "Clean Architecture - Robert C. Martin",
+      "Effective Java - Joshua Bloch",
+      "Design Patterns - Gang of Four (GoF)",
+      "Implementing Domain-Driven Design - Vaughn Vernon",
+      "CQRS Documents - Greg Young",
+      "The Lean Startup - Eric Ries"
+    ]
+  },
+  "download": {
+    "text": "Téléchargez mon CV",
+    "file": "cv-fr.pdf"
+  },
+  "footer": {
+    "copyright": "© 2024 Ahmed. Tous droits réservés."
+  }
+}

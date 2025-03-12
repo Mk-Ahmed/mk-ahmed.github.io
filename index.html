@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portfolio - Ahmed</title>
+    <title id="widgetTitle">Mon portfolio - Ahmed</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="font-sans bg-gray-100 text-gray-800">
@@ -230,8 +230,20 @@
 </footer>
 
 <script>
-    document.getElementById("lang").textContent = navigator.language;
-    console.log(navigator.language);
+    const language = navigator.language;
+    const userLang = language.startsWith("fr") ? "fr" : "en";
+    if (userLang !== 'fr'){
+        loadTranslations(userLang);
+    }
+    function loadTranslations(lang) {
+        fetch(`i18n/${lang}.json`)
+            .then(response => response.json())
+            .then(translations => {
+                document.getElementById("widgetTitle").textContent = translations.widget.title;
+            })
+            .catch(error => console.error("Error while loading translations", error));
+    }
+
 </script>
 
 </body>

@@ -1,87 +1,87 @@
 {
   "widget": {
-    "title": "Mon portfolio - Ahmed"
+    "title": "My Portfolio - Ahmed"
   },
   "header": {
     "name": "Ahmed",
-    "title": "Consultant en développement logiciel",
-    "quote": "« Celui qui excelle à résoudre les difficultés le fait avant qu'elles ne surgissent. » - Sun Tzu"
+    "title": "Software Development Consultant",
+    "quote": "«He who excels at resolving difficulties does so before they arise. ». Sun Tzu"
   },
   "about": {
-    "title": "À propos de moi",
-    "intro": "Développeur spécialisé backend, j'ai contribué à de nombreux projets diversifiés dans des environnements professionnels et entrepreneuriaux. Passionné par l'innovation, je vous accompagne dans votre transformation numérique, que ce soit pour créer, faire évoluer ou maintenir vos solutions.",
-    "approach": "Avec un esprit orienté résultats et une approche collaborative, je relève les défis techniques et humains pour transformer vos idées en succès concrets.",
-    "expertise": "Grâce à mes expériences variées, j'interviens à chaque étape du cycle de développement logiciel :",
+    "title": "About Me",
+    "intro": "As a backend specialist, I have contributed to numerous diverse projects in both professional and entrepreneurial environments. Passionate about innovation, I support you in your digital transformation, whether it’s to create, evolve, or maintain your solutions.",
+    "approach": "With a results-oriented mindset and a collaborative approach, I tackle technical and human challenges to turn your ideas into tangible successes.",
+    "expertise": "Because of my diverse experiences, I can contribute at every stage of the software development lifecycle:",
     "skills": {
-      "workshops": "Animation d’ateliers pour clarifier les besoins et aligner les parties prenantes.",
-      "ux": "Conception et optimisation des parcours utilisateurs, pour une expérience fluide et intuitive.",
-      "stories": "Rédaction d'user stories précises, favorisant des cycles de développement courts et efficaces.",
-      "development": "Développement de solutions fiables et maintenables, adaptées à vos besoins.",
-      "deployment": "Déploiement performant dans des environnements cloud modernes.",
-      "code_review": "Analyse de code pour réduire la dette technique et améliorer les performances.",
-      "testing": "Mise en place de tests automatisés, garantissant la qualité et la stabilité du produit.",
-      "coaching": "Coaching technique des équipes, pour ancrer les bonnes pratiques et la culture craft."
+      "workshops": "Facilitating workshops to clarify needs and align stakeholders.",
+      "ux": "Designing and optimizing user journeys for a smooth and intuitive experience.",
+      "stories": "Writing precise user stories to enable short and efficient development cycles.",
+      "development": "Developing reliable and maintainable solutions tailored to your needs.",
+      "deployment": "Efficient deployment in modern cloud environments.",
+      "code_review": "Code analysis to reduce technical debt and improve performance.",
+      "testing": "Implementing automated tests to ensure product quality and stability.",
+      "coaching": "Technical coaching for teams to instill best practices and a craftsmanship culture."
     },
     "quality_guarantee": {
-      "title": "Garantie qualité",
-      "description": "En tant que signataire du manifeste Software Craftsmanship, mes développements respectent des standards de haute qualité. En cas de dysfonctionnements, une correction gratuite et immédiate est garantie."
+      "title": "Quality Guarantee",
+      "description": "As a signatory of the Software Craftsmanship Manifesto, my developments adhere to high-quality standards. In case of malfunctions, free and immediate corrections are guaranteed."
     }
   },
   "experience": {
-    "title": "Expériences Professionnelles",
+    "title": "Professional Experience",
     "jobs": [
       {
         "company": "RISF",
-        "position": "Développeur",
-        "dates": "07/2023 - 02/2025 (1 an et 8 mois)",
+        "position": "Developer",
+        "dates": "07/2023 - 02/2025 (1 year and 8 months)",
         "location": "Nice - France",
-        "description": "Fournisseur de solution BSS pour les opérateurs téléphoniques du groupe ILIAD",
+        "description": "BSS solution provider for ILIAD Group telecom operators",
         "tasks": [
-          "Contributions au développement du cœur du produit",
-          "Maintenance et évolution de la solution de facturation pour EIR/GOMO",
-          "Développement de la solution de facturation pour EPIC Malta"
+          "Contributed to the core product development",
+          "Maintained and enhanced the billing solution for EIR/GOMO",
+          "Developed the billing solution for EPIC Malta"
         ]
       },
       {
         "company": "Universign",
-        "position": "Développeur",
-        "dates": "07/2022 - 03/2023 (8 mois)",
+        "position": "Developer",
+        "dates": "07/2022 - 03/2023 (8 months)",
         "location": "Paris - France",
-        "description": "Prestataire spécialisé dans les services de signature électronique",
+        "description": "Service provider specializing in electronic signature solutions",
         "tasks": [
-          "Améliorations des tests de l'application",
-          "Refonte du système d'authentification en intégrant des solutions multi-fournisseurs (SAML2, OAuth)",
-          "Mise en place de Stripe Billing pour la partie abonnement et facturation"
+          "Improved application testing",
+          "Redesigned the authentication system by integrating multi-provider solutions (SAML2, OAuth)",
+          "Implemented Stripe Billing for subscription and invoicing management"
         ]
       }
     ]
   },
   "education": {
-    "title": "Formations et Diplômes",
-    "degree_subtitle": "Diplômes",
+    "title": "Education & Degrees",
+    "degree_subtitle": "Degrees",
     "degrees": [
       {
-        "title": "Master",
-        "field": "Expert en systèmes d'information",
+        "title": "Master’s Degree",
+        "field": "Information Systems Expert",
         "school": "ESTIAM - Paris",
         "year": "09/2019"
       },
       {
-        "title": "Licence",
-        "field": "Concepteur de systèmes d'information",
+        "title": "Bachelor’s Degree",
+        "field": "Information Systems Designer",
         "school": "IUT de Montreuil - Paris 8",
         "year": "08/2017"
       }
     ],
-    "training_subtitle": "Formations",
+    "training_subtitle": "Training",
     "trainings": [
-      "Initiation DEVOPS (02/2020)",
-      "Initiation AGILE (01/2020 - 02/2020)",
-      "Software Craftsmanship - Clean Code, TDD, BDD et principes SOLID (11/2020)",
-      "TDD et Clean Architecture dans le monde de Java (11/2021)",
-      "DDD Stratégique Design (09/2023)"
+      "Introduction to DEVOPS (02/2020)",
+      "Introduction to AGILE (01/2020 - 02/2020)",
+      "Software Craftsmanship - Clean Code, TDD, BDD, and SOLID Principles (11/2020)",
+      "TDD and Clean Architecture in the Java World (11/2021)",
+      "DDD Strategic Design (09/2023)"
     ],
-    "book_subtitle": "Lecture",
+    "book_subtitle": "Reading",
     "books": [
       "Extreme Programming - Kent Beck",
       "Clean Code - Robert C. Martin",
@@ -94,10 +94,10 @@
     ]
   },
   "download": {
-    "text": "Téléchargez mon CV",
-    "file": "cv-fr.pdf"
+    "text": "Download my Resume",
+    "file": "cv-en.pdf"
   },
   "footer": {
-    "copyright": "© 2024 Ahmed. Tous droits réservés."
+    "copyright": "© 2024 Ahmed. All rights reserved."
   }
 }

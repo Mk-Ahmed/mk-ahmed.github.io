@@ -219,7 +219,7 @@
 
 <!-- CV -->
 <section class="container mx-auto px-6 py-12 text-center">
-    <a href="resources/cv-fr.pdf" download="Mon_CV"
+    <a id="cv-download" href="resources/cv-fr.pdf" download="Mon_CV"
        class="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">
         Téléchargez mon CV
     </a>
@@ -235,7 +235,10 @@
 <script>
     const language = navigator.language;
     const userLang = language.startsWith("fr") ? "fr" : "en";
+    const cvDownload = document.getElementById("cvDownload");
+
     if (userLang !== 'fr') {
+        cvDownload.href = "resources/cv-en.pdf";
         loadTranslations(userLang);
     }
 

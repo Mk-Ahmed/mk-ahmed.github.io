@@ -25,7 +25,8 @@
 <section class="container mx-auto px-6 py-12">
     <h2 class="text-2xl font-bold text-blue-500 mb-4" id="about-title">À propos de moi</h2>
     <p id="about-intro"><strong>Développeur spécialisé backend</strong>, j'ai contribué à de nombreux projets
-        diversifiés dans des environnements professionnels et entrepreneuriaux. Passionné par l'innovation, je vous accompagne dans
+        diversifiés dans des environnements professionnels et entrepreneuriaux. Passionné par l'innovation, je vous
+        accompagne dans
         votre transformation numérique, que ce soit pour créer, faire évoluer ou maintenir vos solutions.</p>
     <p id="about-approach" class="mt-4">Avec un esprit orienté résultats et une approche collaborative, je relève les
         défis techniques et
@@ -111,14 +112,13 @@
     <div class="mb-6 flex items-start sm:items-center">
         <img src="resources/logo-entreprise.png" alt="Logo Nizu" class="w-12 h-12 mr-4">
         <div>
-            <h3 class="text-xl font-semibold text-gray-800">CEO - NIZU</h3>
+            <h3 class="text-xl font-semibold text-gray-800">Développeur - NIZU</h3>
             <p class="text-gray-600">01/2022 - 06/2022 <strong>(6 mois)</strong>, Dubai - UAE</p>
             <p class="text-gray-600">L'objectif de NIZU est de fournir aux utilisateurs de taxis un moyen simple de se
                 réapprovisionner en produits essentiels pendant leur trajet.</p>
             <ul class="list-disc list-inside mt-2 text-gray-700">
                 <li>Développement de l'application</li>
-                <li>Commercialisation ciblée auprès des compagnies de taxis et des autorités locales de régulation
-                    (RTA).
+                <li>Commercialisation auprès des compagnies de taxis et des autorités locales de régulation (RTA).
                 </li>
             </ul>
         </div>
@@ -195,8 +195,7 @@
             <ul class="list-disc list-inside mt-4 text-gray-700">
                 <li><strong>Initiation DEVOPS</strong> (02/2020)</li>
                 <li><strong>Initiation AGILE</strong> (01/2020 - 02/2020)</li>
-                <li><strong>Software Craftsmanship - Clean Code, TDD, BDD et principes SOLID</strong> (11/202O))
-                </li>
+                <li><strong>Software Craftsmanship - Clean Code, TDD, BDD et principes SOLID</strong> (11/202O))</li>
                 <li><strong>TDD et Clean Architecture dans le monde de Java</strong> (11/2021))</li>
                 <li><strong>DDD Stratégique Design</strong> (09/2023)</li>
             </ul>
@@ -247,9 +246,6 @@
             .then(response => response.json())
             .then(translations => {
                 document.getElementById("widget-title").textContent = translations.widget.title;
-                document.getElementById("my-name").textContent = translations.header.name;
-                document.getElementById("job-title").textContent = translations.header.title;
-                document.getElementById("quote").textContent = translations.header.quote;
             })
             .catch(error => console.error("Error while loading translations", error));
     }

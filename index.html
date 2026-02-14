@@ -268,30 +268,30 @@
 <!-- Footer -->
 <footer class="bg-blue-500 text-white py-4 mt-12">
     <div class="text-center">
-        <p class="text-sm">&copy; 2025 Ahmed. Tous droits réservés.</p>
+        <p class="text-sm">&copy; 2026 Ahmed. Tous droits réservés.</p>
     </div>
 </footer>
 
-<script>
-    const language = navigator.language;
-    const userLang = language.startsWith("fr") ? "fr" : "en";
-    const cvDownload = document.getElementById("cvDownload");
+<!--<script>-->
+<!--    const language = navigator.language;-->
+<!--    const userLang = language.startsWith("fr") ? "fr" : "en";-->
+<!--    const cvDownload = document.getElementById("cvDownload");-->
 
-    if (userLang !== 'fr') {
-        cvDownload.href = "resources/cv-en.pdf";
-        loadTranslations(userLang);
-    }
+<!--    if (userLang !== 'fr') {-->
+<!--        cvDownload.href = "resources/cv-en.pdf";-->
+<!--        loadTranslations(userLang);-->
+<!--    }-->
 
-    function loadTranslations(lang) {
-        fetch(`i18n/${lang}.json`)
-            .then(response => response.json())
-            .then(translations => {
-                document.getElementById("widget-title").textContent = translations.widget.title;
-            })
-            .catch(error => console.error("Error while loading translations", error));
-    }
+<!--    function loadTranslations(lang) {-->
+<!--        fetch(`i18n/${lang}.json`)-->
+<!--            .then(response => response.json())-->
+<!--            .then(translations => {-->
+<!--                document.getElementById("widget-title").textContent = translations.widget.title;-->
+<!--            })-->
+<!--            .catch(error => console.error("Error while loading translations", error));-->
+<!--    }-->
 
-</script>
+<!--</script>-->
 
 </body>
 </html>
